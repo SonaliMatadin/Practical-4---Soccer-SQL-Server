@@ -1,5 +1,38 @@
 # Soccer-SQL-Server
-Analyzed the South African Soccer Dataset using SQL Server Management Studio (SSMS). Built 20 queries covering player stats, team performance, market value, accuracy metrics, contracts, injuries, and agent insights. Includes data cleaning for NVARCHAR fields and grouped analytical outputs.
+Practical: Soccer Data Analysis Using SQL
+
+This practical explores a South African soccer dataset using SQL Server Management Studio (SSMS) to perform data analysis and uncover player and team insights. The exercise focuses on querying, summarizing, and interpreting performance, value, and demographic information.
+
+✅ Key SQL Tasks Performed
+
+Viewing and exploring the dataset structure
+
+Counting total players and team distributions
+
+Listing unique teams and player demographics
+
+Ranking top players by goals and market value
+
+Calculating averages (salary, passing accuracy, market value, height, weight)
+
+Evaluating team performance (goals, assists, ratios)
+
+Identifying contract end dates and injury status
+
+Analyzing player performance metrics like goals per match
+
+✅ Practical Outcomes
+
+Improved ability to summarize large datasets
+
+Experience with grouping, filtering, ranking, and aggregation
+
+Ability to extract meaningful sports insights using SQL
+
+Real-world data analysis workflow in SSMS
+
+Tool Used: SQL Server Management Studio (SSMS)
+
 
   SELECT TOP 100 *
 FROM [Soccer_Analysis_Db1].[dbo].[ketro_sa_soccer_dataset_advanced];
